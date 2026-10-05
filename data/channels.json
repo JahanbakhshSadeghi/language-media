@@ -9,8 +9,7 @@
       "country": "Germany",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Deutsche_Welle_logo.svg",
       "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8",
-      "source_page": "https://www.dw.com/en/dw-english-weekly-program-guide/a-6703019",
-      "min_height": 720
+      "source_page": "https://www.dw.com/en/dw-english-weekly-program-guide/a-6703019"
     },
     {
       "id": "france24-en",
@@ -20,8 +19,7 @@
       "country": "France",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7a/France24.png",
       "url": "https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_5000.m3u8",
-      "source_page": "https://www.france24.com/en/live",
-      "min_height": 720
+      "source_page": "https://www.france24.com/en/live"
     },
     {
       "id": "das-erste-de",
@@ -31,30 +29,7 @@
       "country": "Germany",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d1/ARD_Dachmarke_2014.svg",
       "url": "https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master.m3u8",
-      "source_page": "https://www.daserste.de/live/index.html",
-      "min_height": 720
-    },
-    {
-      "id": "zdf-de",
-      "name": "ZDF HD",
-      "language": "German",
-      "group": "General",
-      "country": "Germany",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c1/ZDF_logo.svg",
-      "url": "https://zdf-hls-15.akamaized.net/hls/live/2016498/de/veryhigh/master.m3u8",
-      "source_page": "https://www.zdf.de/live-tv",
-      "min_height": 720
-    },
-    {
-      "id": "3sat-de",
-      "name": "3sat HD",
-      "language": "German",
-      "group": "Culture",
-      "country": "Germany",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/8/81/3sat_2019.svg",
-      "url": "https://zdf-hls-18.akamaized.net/hls/live/2016501/dach/veryhigh/master.m3u8",
-      "source_page": "https://www.3sat.de/livestream",
-      "min_height": 720
+      "source_page": "https://www.daserste.de/live/index.html"
     },
     {
       "id": "trt1-tr",
@@ -64,30 +39,16 @@
       "country": "Türkiye",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/8/85/TRT_1_logo_%282021-%29.svg",
       "url": "https://tv-trt1.medya.trt.com.tr/master.m3u8",
-      "source_page": "https://www.trt1.com.tr/canli-izle",
-      "min_height": 720
+      "source_page": "https://www.trt1.com.tr/canli-izle"
     },
     {
-      "id": "trt2-tr",
-      "name": "TRT 2",
+      "id": "trthaber-tr",
+      "name": "TRT Haber",
       "language": "Turkish",
-      "group": "Culture",
+      "group": "News",
       "country": "Türkiye",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/6/68/TRT_2_logo.svg",
-      "url": "https://tv-trt2.medya.trt.com.tr/master.m3u8",
-      "source_page": "https://www.trt2.com.tr/canli-izle",
-      "min_height": 720
-    },
-    {
-      "id": "trtcocuk-tr",
-      "name": "TRT Çocuk",
-      "language": "Turkish",
-      "group": "Kids & Education",
-      "country": "Türkiye",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/1/1a/TRT_%C3%87ocuk_logo_%282021%29.svg",
-      "url": "https://tv-trtcocuk.medya.trt.com.tr/master.m3u8",
-      "source_page": "https://www.trtcocuk.com/canli-izle",
-      "min_height": 720
+      "url": "https://tv-trthaber.medya.trt.com.tr/master_720.m3u8",
+      "source_page": "https://www.trthaber.com/canli-yayin-izle/trt-haber/"
     }
   ]
 }
