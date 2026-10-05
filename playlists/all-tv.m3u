@@ -1,17 +1,11 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="dw-en" tvg-name="DW English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8a/Deutsche_Welle_logo.svg" group-title="News",DW English
+#EXTINF:-1 tvg-id="dw-en" tvg-name="DW English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8a/Deutsche_Welle_logo.svg" group-title="English",DW English
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8
-#EXTINF:-1 tvg-id="france24-en" tvg-name="France 24 English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7a/France24.png" group-title="News",France 24 English
+#EXTINF:-1 tvg-id="france24-en" tvg-name="France 24 English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7a/France24.png" group-title="English",France 24 English
 https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_5000.m3u8
-#EXTINF:-1 tvg-id="das-erste-de" tvg-name="Das Erste HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d1/ARD_Dachmarke_2014.svg" group-title="General",Das Erste HD
+#EXTINF:-1 tvg-id="das-erste-de" tvg-name="Das Erste HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d1/ARD_Dachmarke_2014.svg" group-title="German",Das Erste HD
 https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master.m3u8
-#EXTINF:-1 tvg-id="zdf-de" tvg-name="ZDF HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c1/ZDF_logo.svg" group-title="General",ZDF HD
-https://zdf-hls-15.akamaized.net/hls/live/2016498/de/veryhigh/master.m3u8
-#EXTINF:-1 tvg-id="3sat-de" tvg-name="3sat HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/81/3sat_2019.svg" group-title="Culture",3sat HD
-https://zdf-hls-18.akamaized.net/hls/live/2016501/dach/veryhigh/master.m3u8
-#EXTINF:-1 tvg-id="trt1-tr" tvg-name="TRT 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/85/TRT_1_logo_%282021-%29.svg" group-title="General",TRT 1
+#EXTINF:-1 tvg-id="trt1-tr" tvg-name="TRT 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/85/TRT_1_logo_%282021-%29.svg" group-title="Turkish",TRT 1
 https://tv-trt1.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="trt2-tr" tvg-name="TRT 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/68/TRT_2_logo.svg" group-title="Culture",TRT 2
-https://tv-trt2.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="trtcocuk-tr" tvg-name="TRT Çocuk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1a/TRT_%C3%87ocuk_logo_%282021%29.svg" group-title="Kids & Education",TRT Çocuk
-https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="trthaber-tr" tvg-name="TRT Haber" group-title="Turkish",TRT Haber
+https://tv-trthaber.medya.trt.com.tr/master_720.m3u8
