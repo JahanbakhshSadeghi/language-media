@@ -2,7 +2,7 @@ name: Validate streams
 
 on:
   push:
-    paths: ["data/**","scripts/**",".github/workflows/validate.yml"]
+    paths: ["data/**","scripts/**",".github/workflows/validate.yml","playlists/**"]
   schedule:
     - cron: "17 */6 * * *"
   workflow_dispatch:
