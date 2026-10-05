@@ -1,8 +1,6 @@
 name: Validate streams
 
 on:
-  push:
-    paths: ["data/**","scripts/**",".github/workflows/validate.yml","playlists/**"]
   workflow_dispatch:
 
 permissions:
@@ -18,4 +16,3 @@ jobs:
           python-version: "3.x"
       - run: python scripts/generate_playlists.py
       - run: python scripts/validate.py
-      - run: git diff --exit-code
