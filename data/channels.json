@@ -1,4 +1,25 @@
 {
   "version": 1,
-  "channels": []
+  "channels": [
+    {
+      "id": "dw-en",
+      "name": "DW English",
+      "language": "English",
+      "group": "News",
+      "country": "Germany",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Deutsche_Welle_logo.svg",
+      "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8",
+      "source_page": "https://www.dw.com/en/dw-english-weekly-program-guide/a-6703019"
+    },
+    {
+      "id": "france24-en",
+      "name": "France 24 English",
+      "language": "English",
+      "group": "News",
+      "country": "France",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7a/France24.png",
+      "url": "https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_5000.m3u8",
+      "source_page": "https://www.france24.com/en/live"
+    }
+  ]
 }
