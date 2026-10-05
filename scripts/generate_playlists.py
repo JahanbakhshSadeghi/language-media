@@ -19,7 +19,8 @@ def write(name,items):
     OUT.mkdir(parents=True,exist_ok=True)
     lines=["#EXTM3U"]
     for x in items:
-        attrs=f'tvg-id="{esc(x.get("id"))}" tvg-name="{esc(x["name"])}" tvg-logo="{esc(x.get("logo"))}" group-title="{esc(x.get("group",x.get("language","Other")))}"'
+        language=x.get("language","Other")
+        attrs=f'tvg-id="{esc(x.get("id"))}" tvg-name="{esc(x["name"])}" tvg-logo="{esc(x.get("logo"))}" group-title="{esc(language)}"'
         lines += [f'#EXTINF:-1 {attrs},{esc(x["name"])}',x["url"].strip()]
     (OUT/name).write_text("\n".join(lines)+"\n",encoding="utf-8")
 
