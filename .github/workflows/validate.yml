@@ -3,8 +3,6 @@ name: Validate streams
 on:
   push:
     paths: ["data/**","scripts/**",".github/workflows/validate.yml","playlists/**"]
-  schedule:
-    - cron: "17 */6 * * *"
   workflow_dispatch:
 
 permissions:
@@ -18,10 +16,6 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.x"
-      - name: Install ffprobe
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y ffmpeg
       - run: python scripts/generate_playlists.py
       - run: python scripts/validate.py
       - run: git diff --exit-code
